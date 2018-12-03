@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #!/usr/bin/env python
 # coding: utf-8
 
@@ -24,3 +25,16 @@ def get_r(K, L, alpha, Z, delta):
     
     return r
 
+=======
+'''
+------------------------------------------------------------------------
+This module contains the function get_r()
+------------------------------------------------------------------------
+'''
+
+
+def get_r(K, L, alpha, Z):
+    r = alpha + Z * (L / K) ** alpha
+
+    return r
+>>>>>>> upstream/master
